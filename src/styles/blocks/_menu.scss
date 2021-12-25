@@ -1,0 +1,23 @@
+.menu {
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+
+  }
+
+  a {
+    font-size: 24px;
+    line-height: 33px;
+    color: $color-ligth;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}

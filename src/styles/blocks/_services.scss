@@ -1,0 +1,22 @@
+.services {
+  padding: 100px 0;
+  background-color: $color-ligth;
+}
+
+.services-inner {
+  @include container;
+}
+
+.services-title {
+  @include section-title;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-item {
+  flex-basis: 50%;
+}
+

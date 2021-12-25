@@ -1,0 +1,23 @@
+.header {
+  background-color: $color-dark;
+  color: $color-ligth;
+}
+
+.header-inner {
+  @include container;
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.main-logo {
+  margin-right: auto;
+  color: inherit;
+}
+
+.header-phone {
+  margin-left: 100px;
+  color: inherit;
+}

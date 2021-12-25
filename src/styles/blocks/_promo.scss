@@ -1,0 +1,23 @@
+.promo {
+  padding: 140px 0;
+  background-color: rgba($color-ligth, .2);
+}
+
+.promo-inner {
+  @include container;
+}
+
+.promo-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.promo-info {
+  flex-basis: 50%;
+  padding-right: $grid-gap-half;
+}
+
+.promo-visual {
+  flex-basis: 50%;
+  padding-left: $grid-gap-half;
+}
