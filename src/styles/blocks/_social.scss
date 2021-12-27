@@ -1,0 +1,36 @@
+.social {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item {
+  margin-left: 15px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.social-link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-link-insta {
+  background-image: url('../images/icon-insta.svg');
+}
+
+.social-link-fb {
+  background-image: url('../images/icon-fb.svg');
+}
+
+.social-link-telega {
+  background-image: url('../images/icon-telega.svg');
+}

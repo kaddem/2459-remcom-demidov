@@ -17,6 +17,23 @@
   padding-right: $grid-gap-half;
 }
 
+.promo-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: $font-ral;
+  font-weight: 300;
+  font-size: 116px;
+  line-height: 136px;
+  color: $color-accent;
+}
+
+.promo-text {
+  margin-bottom: 70px;
+  font-size: 32px;
+  line-height: 44px;
+  color: $color-accent;
+}
+
 .promo-visual {
   flex-basis: 50%;
   padding-left: $grid-gap-half;

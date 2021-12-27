@@ -20,3 +20,27 @@
   flex-basis: 50%;
 }
 
+.services-icon {
+  display: block;
+  width: 80px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 bottom;
+}
+
+.services-icon-microwave {
+  background-image: url('../images/icon-microwave.svg');
+}
+
+.services-icon-phone {
+  background-image: url('../images/icon-phone.svg');
+}
+
+.services-icon-speaker {
+  background-image: url('../images/icon-speaker.svg');
+}
+
+.services-icon-furniture {
+  background-image: url('../images/icon-furniture.svg');
+}

@@ -1,0 +1,13 @@
+.order {
+  padding-top: 100px;
+  padding-bottom: 90px;
+  background-color: rgba($color-ligth, .2);
+}
+
+.order-inner {
+  @include container;
+}
+
+.order-title {
+  @include section-title;
+}
