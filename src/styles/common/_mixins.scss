@@ -2,6 +2,10 @@
   max-width: 1278px;
   margin: 0 auto;
   border: 1px solid red;
+
+  @media (max-width: $tablet-max) {
+    padding: 0 15px;
+  }
 }
 
 @mixin section-title {

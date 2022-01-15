@@ -38,3 +38,18 @@
   flex-basis: 50%;
   padding-left: $grid-gap-half;
 }
+
+.promo-visual-wrap {
+  position: relative;
+}
+
+.promo-visual-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  color: $color-ligth;
+  background-color: rgba($color-dark, .7);
+}
