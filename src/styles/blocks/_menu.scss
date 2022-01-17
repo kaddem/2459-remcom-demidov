@@ -44,6 +44,7 @@
     color: $color-ligth;
     text-decoration: none;
 
+    &.active,
     &:hover {
       color: $color-accent;
     }

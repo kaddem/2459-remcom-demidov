@@ -3,18 +3,26 @@
   flex-wrap: wrap;
   width: 66.66%;
   margin: 40px auto 0;
-  border: 1px solid #000;
+
+  @media (max-width: $tablet-max) {
+    width: initial;
+    margin-left: -$grid-gap-half;
+    margin-right: -$grid-gap-half;
+  }
 }
 
 .form-field {
   width: 100%;
   margin-top: 30px;
   padding: 0 $grid-gap-half;
-  border: 1px solid green;
 }
 
 .form-field-half {
   width: 50%;
+
+  @media (max-width: $mobile-max) {
+    width: 100%;
+  }
 }
 
 .form-input {

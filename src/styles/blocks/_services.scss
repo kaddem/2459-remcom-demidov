@@ -1,6 +1,14 @@
 .services {
   padding: 100px 0;
   background-color: $color-ligth;
+
+  @media (max-width: $tablet-max) {
+    padding: 70px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 50px 0;
+  }
 }
 
 .services-inner {
@@ -14,10 +22,32 @@
 .services-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: -$grid-gap-half;
+  margin-right: -$grid-gap-half;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    display: block;
+    margin-top: 10px;
+  }
 }
 
 .services-item {
   flex-basis: 50%;
+  margin-top: 50px;
+  padding: 0 $grid-gap-half;
+
+  @media (max-width: $tablet-max) {
+    margin-top: 60px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-top: 40px;
+  }
 }
 
 .services-icon {

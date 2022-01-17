@@ -8,6 +8,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: $mobile-max) {
+    flex-direction: column-reverse;
+  }
 }
 
 .copyright {
@@ -15,4 +19,8 @@
   font-size: 20px;
   line-height: 27px;
   color: $color-ligth;
+
+  @media (max-width: $mobile-max) {
+    margin-top: 10px;
+  }
 }

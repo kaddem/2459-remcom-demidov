@@ -14,3 +14,18 @@
 .btn-full {
   width: 100%;
 }
+
+.btn-tablet {
+  @media (max-width: $mobile-max) {
+    display: none;
+  }
+}
+
+.btn-mobile {
+  display: none;
+
+  @media (max-width: $mobile-max) {
+    display: inline-block;
+    margin-top: 50px;
+  }
+}
