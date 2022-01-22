@@ -1,16 +1,8 @@
-console.log('script work!');
+$(document).ready(function(){
 
-let petsName = ['Gans', 'Ryann', 'Nikki', 'Dusya'];
+  $('h2').each(function(){
+    let text = $(this).text();
+    console.log(text);
+  });
 
-console.log(  petsName  );
-console.log(  petsName.length  );
-
-
-let person = {
-  name: 'Ivan',
-  age: 23
-}
-
-console.log(person.name);
-
-let summ = 2 + 3 * 3;
+});
