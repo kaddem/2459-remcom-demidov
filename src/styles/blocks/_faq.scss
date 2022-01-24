@@ -1,0 +1,43 @@
+.faq {
+  padding-top: 140px;
+  padding-bottom: 130px;
+}
+
+.faq-inner {
+  @include container;
+}
+
+.faq-title {
+  @include section-title;
+}
+
+.faq-list {
+  margin-top: 60px;
+}
+
+.faq-item {
+  margin-top: 40px;
+  box-shadow: 0px 0px 8px rgba($color-accent, .2);
+  border-radius: 4px;
+}
+
+.faq-question {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  font-family: $font-ral;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: left;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.faq-answear {
+  display: none;
+  padding: 0 30px 30px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+}

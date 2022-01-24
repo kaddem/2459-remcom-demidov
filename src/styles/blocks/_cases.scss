@@ -1,0 +1,21 @@
+.cases {
+  padding-top: 140px;
+  padding-bottom: 130px;
+}
+
+.cases-inner {
+  @include container;
+}
+
+.cases-title {
+  @include section-title;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cases-item {
+  flex-basis: 25%;
+}

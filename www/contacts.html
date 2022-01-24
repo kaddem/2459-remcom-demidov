@@ -15,7 +15,7 @@
       <div class="header-wrap">
         <a href="index.html" class="main-logo">RemCom</a>
 
-        <nav class="menu">
+        <nav class="menu j-menu">
           <ul>
             <li>
               <a href="reviews.html">Отзывы</a>
@@ -33,11 +33,44 @@
         </nav>
 
         <a href="tel:+78128888888" class="header-phone">+7 812 888-88-88</a>
+
+        <button class="burger j-burger">menu</button>
       </div>
     </div>
   </header>
 
   <main>
+
+    <section class="contacts">
+      <div class="contacts-inner">
+        <h1 class="contacts-title">Сервисные центры</h1>
+
+        <ul class="tabs">
+          <li class="tabs-item">
+            <a href="#" class="tabs-link active j-tabs-link">Санкт-Петербург</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link j-tabs-link">Москва</a>
+          </li>
+          <li class="tabs-item">
+            <a href="#" class="tabs-link j-tabs-link">Екатеринбург</a>
+          </li>
+        </ul>
+
+        <div class="contacts-item active j-tabs-content">
+          <strong>Санкт-Петербург</strong>
+        </div>
+
+        <div class="contacts-item j-tabs-content">
+          <strong>Москва</strong>
+        </div>
+
+        <div class="contacts-item j-tabs-content">
+          <strong>Екатеринбург</strong>
+        </div>
+      </div>
+    </section>
+
     <section class="order">
       <div class="order-inner">
         <h2 class="order-title">Заявка на ремонт</h2>
@@ -86,6 +119,7 @@
     </div>
   </footer>
 
+  <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/script.js"></script>
 </body>
 

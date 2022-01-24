@@ -1,0 +1,26 @@
+.reviews {
+  padding-top: 140px;
+  padding-bottom: 130px;
+}
+
+.reviews-inner {
+  @include container;
+}
+
+.reviews-title {
+  @include section-title;
+}
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: -$grid-gap-half;
+  margin-right: -$grid-gap-half;
+}
+
+.reviews-item {
+  flex-basis: 50%;
+  margin-top: 70px;
+  padding: 0 $grid-gap-half;
+}

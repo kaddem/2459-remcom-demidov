@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.tabs-item {
+  margin: 30px;
+}
+
+.tabs-link {
+  font-size: 36px;
+  line-height: 49px;
+  color: $color-dark;
+  text-decoration: none;
+
+  &.active {
+    color: $color-accent;
+  }
+}

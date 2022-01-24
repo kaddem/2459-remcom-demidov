@@ -1,4 +1,8 @@
 .menu {
+  @media (min-width: $desktop) {
+    display: block !important;
+  }
+
   @media (max-width: $tablet-max) {
     position: absolute;
     top: 100%;
