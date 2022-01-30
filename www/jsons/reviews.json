@@ -1,0 +1,14 @@
+{
+    "reviews" : [
+        {
+            "name": "Alexander",
+            "text": "rokfgnbhsa asdlgknjadflk sadlgnasdfl",
+            "photoUrl": "images/ava-ira.jpg"
+        }, 
+        {
+            "name": "Ivan",
+            "text": "Очень быстро и качественно доломали холодильник!",
+            "photoUrl": "images/ava-ira.jpg"
+        }
+    ]
+}

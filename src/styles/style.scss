@@ -4,6 +4,9 @@
 @import "common/_common";
 @import "common/_mixins";
 
+// Plugins
+@import "plugins/slick";
+
 // blocks
 @import "blocks/_header";
 @import "blocks/_menu";
@@ -21,3 +24,5 @@
 @import "blocks/_reviews";
 @import "blocks/_review";
 @import "blocks/_faq";
+@import "blocks/_gallery";
+@import "blocks/_slider";

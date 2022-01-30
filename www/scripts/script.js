@@ -57,4 +57,70 @@ $(document).ready(function(){
     });
   });
 
+
+  // Аккордионы
+  let prevBtn;
+
+  $('.j-accordion-btn').on('click', function(){
+    if (prevBtn === this) {
+      $(this).next().slideToggle();
+      return;
+    }
+
+    $('.j-accordion-btn').next().slideUp();
+    $(this).next().slideToggle();
+    prevBtn = this;
+  });
+
+
+
+  // Slider
+  if ( $('.j-slider').length ) {
+    $('.j-slider').slick({
+      dots: true,
+      autoplay: true,
+    });
+  }
+
+  // Ajax подгрузка отзывов
+  $('.j-review-btn').on('click', function() {
+    $.ajax({
+      type: 'POST',
+      url: 'jsons/reviews.json',
+      data: 'reviewCount=2',
+      success: function(response) {
+        let htmlString = createHtml(response.reviews);
+        printToPage(htmlString)
+      }
+    });
+  });
+  
+
+  function createHtml(reviewsArray) {
+    let reviewHtml = '';
+
+    reviewsArray.forEach(function(review){
+      console.log(review.name);
+
+      reviewHtml = reviewHtml + `<div class="reviews-item">
+      <div class="review">
+        <div class="review-photo-wrap">
+          <img src="${review.photoUrl}" alt="" class="review-photo">
+        </div>
+        <div class="review-content">
+          <strong class="review-name">${review.name}</strong>
+          <blockquote class="review-quote">“${review.text}”</blockquote>
+        </div>
+      </div>
+    </div>`;
+    });
+
+    return reviewHtml;
+  }
+
+  function printToPage(string) {
+    $('.j-reviews-list').append(string);
+  }
+
+
 });

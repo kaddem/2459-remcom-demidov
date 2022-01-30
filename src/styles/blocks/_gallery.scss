@@ -1,0 +1,11 @@
+.gallery {
+  padding: 130px 0;
+}
+
+.gallery-inner {
+  @include container;
+}
+
+.gallery-title{
+  @include section-title;
+}
